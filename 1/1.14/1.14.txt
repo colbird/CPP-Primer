@@ -1,0 +1,17 @@
+for (int i = 0; i < 10; i++)
+
+int i = 0
+while (i < 10)
+    i++
+
+
+
+std::cin >> i
+
+for (;i < 10; i++)
+
+while (i > 10)
+    i++
+
+
+for 在遍历的时候方便
