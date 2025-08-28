@@ -1,0 +1,15 @@
+(a) std::cin >> int input_value;
+要先定义
+
+int input_value;
+std::cin >> input_value;
+
+(b) int i = { 3.14 };
+会报错 存在信息丢失
+int i = {3}
+
+(c) double salary = wage = 9999.99;
+不会报错，是正常初始化
+
+(d) int i = 3.14
+不会报错，但会丢失精度

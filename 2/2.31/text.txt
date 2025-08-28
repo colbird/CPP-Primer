@@ -1,0 +1,16 @@
+r1 = v2;
+合法
+r1 是一个int型引用 v2 是一个int常量
+底层const可以复制给int型引用
+
+p1 = p2; p2 = p1;
+非法     合法
+p1 是一个int型指针 p2 是一个int常量型指针
+有底层const无法给没有底层const赋值
+但没有底层const可以给有底层const赋值
+
+p1 = p3; p2 = p3;
+非法     合法
+p3 是一个int常量型常量指针
+有底层const无法给没有底层const赋值
+但没有底层const可以给有底层const赋值

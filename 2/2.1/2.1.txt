@@ -1,0 +1,3 @@
+int、long、long long、short区别最小尺寸不同
+带符号和无符号的区别可不可以表达负数
+float和double 的区别精度不同,有效数字位不同

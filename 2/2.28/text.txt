@@ -1,0 +1,14 @@
+int i, *const cp;
+定义： 一个int类型 一个指向int类型的常量指针
+cp 未初始化
+int *pl, *const p2;
+定义： 一个指向int类型的指针 一个指向int类型的常量指针
+p2 未初始化
+const int ic,&r = ic;
+定义： 一个int类型常量 一个引用int类型常量
+ic 未初始化
+const int *const p3;
+定义： 一个指向int常量的常量指针
+p3 未初始化
+const int *p;
+定义： 一个指向int常量的指针

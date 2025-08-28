@@ -1,0 +1,12 @@
+const int buf;
+非法    buf没有初始化
+
+int cnt = 0;
+合法
+
+coust int sz = cot;
+合法
+
+++cnt; ++sz;
+cnt自增合法
+sz自增非法因为常量的指不能改变

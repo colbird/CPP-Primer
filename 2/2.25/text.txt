@@ -1,0 +1,12 @@
+int *ip, i, &r = i;
+ip int型指针 无效指针
+i int 未初始化
+r 引用int i
+
+int i, *ip = 0;
+i int 未初始化
+ip int型指针 空指针
+
+int *ip, ip2;
+ip int型指针 无效指针
+ip2 int 未初始化

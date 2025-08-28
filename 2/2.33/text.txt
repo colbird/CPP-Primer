@@ -1,0 +1,6 @@
+a = 42; b = 42;     c = 42;
+int     int         int
+合法    合法        合法
+d = 42; e = 42;     g = 42;
+int *   const int * const int &
+非法    非法        非法

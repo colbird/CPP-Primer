@@ -1,0 +1,9 @@
+(a)int ival = 1.01;
+
+(b)int &rvall1 = 1.01;
+引用类型初始值必须是一个对象
+
+(c)int &rvall2 = ival;
+
+(d)int &rvall3;
+引用类型必须初始化

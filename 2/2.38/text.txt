@@ -1,0 +1,10 @@
+decltype 和 auto 一样
+int a = 10;
+decltype (a) b = a;
+auto c = a;
+decltype 和 auto 不一样
+int a = 10, &b = a;
+decltype (a) c = a;
+int &
+auto d = a;
+int

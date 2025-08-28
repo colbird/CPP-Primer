@@ -1,0 +1,7 @@
+int month = 9, day = 7;
+
+int month = 09, day = 07;
+
+第1行是十进制
+
+第2行是八进制   month = 09  month = 011
