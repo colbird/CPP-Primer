@@ -1,0 +1,5 @@
+string s;
+cout << s[0] << endl;
+
+不合法, 因为s没初始化string s 为空
+访问元素未定义

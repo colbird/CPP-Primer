@@ -1,0 +1,8 @@
+vector<int> ivec(10, 42);
+定义相同的元素简单方便
+
+vector<int> ivec{42,42,42,42,42,42,42,42,42,42};
+
+vector<int> ivec;
+for (int i = 0; i < 10; i++)
+    ivec.push_back(42);

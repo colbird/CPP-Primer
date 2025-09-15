@@ -1,0 +1,4 @@
+const string s = "Keep out!";
+for (auot &s : s) { /* ... */ }
+
+合法, 字符常量引用

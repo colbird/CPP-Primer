@@ -1,0 +1,10 @@
+vector<int> ivec;
+ivec[0] = 42
+不合法
+
+vector<int> ivec;
+ivec.pash_back(42);
+
+vector<int> ivec {42};
+
+vector<int> ivec (1, 42);

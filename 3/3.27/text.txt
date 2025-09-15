@@ -1,0 +1,13 @@
+unsingned buf_size = 1024;
+
+int ia[buf_size];
+非法
+
+int ia[4 * 7 -14];
+合法
+
+int ia[text_size()];
+text_size() 返回的是常量就合法
+
+char st[11] = "fundamental";
+合法, 但空字符没位置放

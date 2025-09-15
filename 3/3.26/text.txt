@@ -1,0 +1,4 @@
+mid = beg + (end - beg) / 2;
+end - beg 是beg和end 之间有多少个元素
+mid = (beg + end) / 2;
+beg + end 是beg下end个元素

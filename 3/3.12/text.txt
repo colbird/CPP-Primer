@@ -1,0 +1,6 @@
+vector<vector<int>> ivec;
+                  A 不正确, 没加空格
+vector<string> svec = ivec;
+不正确, svec 元素是string 不是 int
+vector<string> svec(10, "null");
+正确, 10 个 "null"
