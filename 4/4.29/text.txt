@@ -1,0 +1,9 @@
+int x[10];  int *p = x;
+cout << sizeof(x) / sizeof(*x);
+10
+sizeof (x) 数组占用40 字节
+sizeof (*x) int 占用4 字节
+cout << sizeof(p) / sizeof(*p);
+2
+sizeof 地址占用8 字节
+sizeof int占用4 字节

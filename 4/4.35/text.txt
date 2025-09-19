@@ -1,0 +1,12 @@
+char cval;  int ival;   unsigned int ui;
+float fval; double dval;
+
+cval = 'a' + 3;
+100 转成char        d
+
+fval = ui - ival * 1.0;
+ival 转 float
+ui 转 float
+
+dval = ui * fval;
+ui 转 float

@@ -1,0 +1,11 @@
+if (fval)
+float 转 bool
+
+dval - fval + ival;
+ival 转 float
+结果 转 double
+
+dval + ival * cval;
+
+cval 转 int
+结果 转 double

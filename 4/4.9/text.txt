@@ -1,0 +1,5 @@
+const char *cp = "Hello World";
+if (cp && *cp)
+
+cp 是地址 true
+*cp 字符 true

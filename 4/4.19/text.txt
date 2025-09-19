@@ -1,0 +1,7 @@
+(a) ptr != 0 && *ptr++
+ptr地址不为空后 *ptr是否为零 ptr++
+(b)ival++ && ival
+ival是否为零后自增 ival是否为零
+(c)vec[ivel++] <= vec[ivel]
+表达式不正确, 因为 <= 比较 左右两边都要执行没有先后顺序
+(c)vec[ivel+1] <= vec[ivel]

@@ -1,0 +1,6 @@
+someValue ? ++x, ++y : --x, --y;
+someValue true
+x+1 返回y+1
+
+someValue false
+x-1 返回y-1

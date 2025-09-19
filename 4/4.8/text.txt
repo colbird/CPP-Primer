@@ -1,0 +1,9 @@
+a && b
+a true 再 b
+
+a || b
+a false 再 b
+
+a != b
+a == b
+两边必须求值

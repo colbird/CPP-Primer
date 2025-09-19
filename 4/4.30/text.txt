@@ -1,0 +1,7 @@
+sizeof (x + y) 
+
+sizeof (p->mem[1])
+
+sizeof (a) < b
+
+sizeof (f())
